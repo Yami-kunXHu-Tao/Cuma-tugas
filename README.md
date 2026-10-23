@@ -10,7 +10,3 @@ Proyek website portofolio modern dan responsif untuk **Antonio Rezario Solokana*
 ## Cara Menjalankan
 Buka file `index.html` langsung di browser pilihan Anda (Google Chrome, Microsoft Edge, Firefox) dengan cara klik ganda file [index.html](file:///D:/portfolio-antonio/index.html) atau melalui ekstensi *Live Server* di VS Code.
 
-## Cara Mengganti Foto / Placeholder:
-1. **Foto Diri**: Cari komentar `<!-- GANTI FOTO DIRI DI SINI -->` pada `index.html` dan ganti atribut `src` pada tag `<img id="foto-profil">`.
-2. **Foto Kampus**: Cari komentar `<!-- GANTI FOTO KAMPUS DI SINI -->` pada `index.html` dan ganti atribut `src` pada tag `<img id="foto-kampus">`.
-3. **Gambar Proyek**: Ganti `src` pada masing-masing tag `<img>` di dalam section `#projects`.
