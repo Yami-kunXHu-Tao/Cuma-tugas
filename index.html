@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antonio Rezario Solokana | Portfolio</title>
+  <meta name="description" content="Portofolio resmi Antonio Rezario Solokana - Undergraduate Student in Computer Science | Web & Android Developer">
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== 1. Header / Navbar ==================== -->
+  <header class="navbar-container">
+    <nav class="navbar" id="navbar">
+      <a href="#hero" class="nav-logo">Antonio<span>.dev</span></a>
+
+      <!-- Hamburger Button (Mobile) -->
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Buka Navigasi">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link nav-btn-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ==================== 2. Hero Section ==================== -->
+  <section class="section hero-section" id="hero">
+    <div class="container hero-wrapper">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fa-solid fa-terminal"></i> Welcome to My Portfolio</span>
+        <h1 class="hero-name">Antonio Rezario Solokana</h1>
+        <p class="hero-role">Undergraduate Student in Computer Science | Web & Android Developer</p>
+        <p class="hero-desc">
+          Membangun solusi digital yang efisien, terstruktur, dan berorientasi pengguna melalui pengembangan Web modern dan aplikasi Android.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Hubungi Saya</a>
+          <a href="#projects" class="btn btn-outline"><i class="fa-solid fa-code"></i> Lihat Proyek</a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="avatar-glow"></div>
+        <!-- GANTI FOTO DIRI DI SINI: ganti src dengan path foto kamu, misal "assets/foto-antonio.jpg" -->
+        <img src="IMG-1.jpg" alt="Foto Antonio Rezario Solokana" id="foto-profil" class="profile-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3. About Me ==================== -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-badge">Tentang Saya</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="title-bar"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card-text">
+          <h3 class="about-heading"><i class="fa-solid fa-user-graduate"></i> Profil Akademik & Riset</h3>
+          <p class="about-summary">
+            Mahasiswa S1 Teknik Informatika di Universitas Negeri Surabaya (UNESA) dengan minat riset pada komputasi terapan, rekayasa perangkat lunak, dan kecerdasan buatan. Berfokus pada pengembangan aplikasi seluler (Android) serta platform web modern, dengan aspirasi memperluas cakupan ke pemodelan Artificial Intelligence (AI) dan Machine Learning (ML).
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div>
+                <strong>Rekayasa Perangkat Lunak</strong>
+                <span>Arsitektur kode bersih, modular, & scalable</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-brain"></i>
+              <div>
+                <strong>AI & Komputasi Terapan</strong>
+                <span>Eksplorasi Machine Learning & Sistem Cerdas</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card-image">
+          <div class="campus-card">
+            <div class="campus-image-container">
+              <!-- GANTI FOTO KAMPUS DI SINI: ganti src dengan path foto kampus, misal "assets/kampus-unesa.jpg" -->
+              <img src="foto-kampus.jpg" alt="Kampus Universitas Negeri Surabaya" id="foto-kampus" class="campus-img">
+            </div>
+            <div class="campus-caption">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>Universitas Negeri Surabaya (UNESA)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 4. Skills ==================== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-badge">Keahlian & Kompetensi</span>
+        <h2 class="section-title">Skills & Capabilities</h2>
+        <div class="title-bar"></div>
+        <p class="section-subtitle">Kompetensi teknis, perkakas pengembangan, dan kemampuan analitis komputasi.</p>
+      </div>
+
+      <div class="skills-badges-container">
+        <!-- Badge 1 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-solid fa-globe"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">Web Development</span>
+            <span class="badge-desc">Front-end & Back-end dasar, HTML/CSS/JS, Database</span>
+          </div>
+        </div>
+
+        <!-- Badge 2 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-brands fa-android"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">Android Development</span>
+            <span class="badge-desc">Android Studio, UI/UX, API Integration</span>
+          </div>
+        </div>
+
+        <!-- Badge 3 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-brands fa-git-alt"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">Git & GitHub</span>
+            <span class="badge-desc">Version Control & Collaborative Workflow</span>
+          </div>
+        </div>
+
+        <!-- Badge 4 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-solid fa-code"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">VS Code</span>
+            <span class="badge-desc">Code Optimization, Extensions & Productivity</span>
+          </div>
+        </div>
+
+        <!-- Badge 5 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-brands fa-linux"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">Linux Terminal / Bash</span>
+            <span class="badge-desc">Command Line Navigation, Scripting & CLI</span>
+          </div>
+        </div>
+
+        <!-- Badge 6 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">Problem Solving & Algoritma</span>
+            <span class="badge-desc">Struktur Data, Logika Komputasi & Efisiensi</span>
+          </div>
+        </div>
+
+        <!-- Badge 7 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-solid fa-square-root-variable"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">Aljabar Linier & Matematika Komputasi</span>
+            <span class="badge-desc">Pondasi Matematis Machine Learning & Analisis Data</span>
+          </div>
+        </div>
+
+        <!-- Badge 8 -->
+        <div class="skill-badge">
+          <div class="badge-icon"><i class="fa-solid fa-language"></i></div>
+          <div class="badge-content">
+            <span class="badge-title">Bahasa Indonesia & Bahasa Inggris</span>
+            <span class="badge-desc">Bahasa Indonesia (Native) & Bahasa Inggris (Full Working Proficiency)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 5. Projects ==================== -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-badge">Portofolio Pilihan</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="title-bar"></div>
+        <p class="section-subtitle">Daftar proyek terpilih yang berfokus pada pengembangan sistem web, seluler, dan presentasi teknis.</p>
+      </div>
+
+      <!-- Grid 2 Kolom untuk 3 Proyek -->
+      <div class="projects-grid">
+        <!-- Proyek 1 -->
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://via.placeholder.com/400x250?text=Proyek+1+Ticket+Booking" alt="Proyek 1" class="project-img">
+            <span class="project-tag"><i class="fa-solid fa-ticket"></i> Web Platform</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Web Ticket Booking Platform</h3>
+            <p class="project-desc">Perancangan UI/UX wireframe, alur pengguna, dan struktur fungsional platform pemesanan tiket berbasis web.</p>
+            <div class="project-footer">
+              <a href="#" class="btn-project-link">Lihat Detail Proyek <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyek 2 -->
+        <article class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://via.placeholder.com/400x250?text=Proyek+2+Android+App" alt="Proyek 2" class="project-img">
+            <span class="project-tag"><i class="fa-brands fa-android"></i> Android App</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Android App Interface & API Integration</h3>
+            <p class="project-desc">Pengembangan aplikasi seluler Android berfokus pada arsitektur komponen, antarmuka responsif, dan integrasi API.</p>
+            <div class="project-footer">
+              <a href="#" class="btn-project-link">Lihat Detail Proyek <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Proyek 3 -->
+        <article class="project-card project-card-span">
+          <div class="project-img-wrap">
+            <img src="https://via.placeholder.com/400x250?text=Proyek+3+Academic+Presentation" alt="Proyek 3" class="project-img">
+            <span class="project-tag"><i class="fa-solid fa-book-bookmark"></i> Academic & Ethics</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Academic Research & Ethics Presentation Platform</h3>
+            <p class="project-desc">Penyusunan dokumentasi teknis dan slide presentasi interaktif berbasis HTML untuk studi kasus etika dan profesi.</p>
+            <div class="project-footer">
+              <a href="#" class="btn-project-link">Lihat Detail Proyek <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 6. Work / Education Experience ==================== -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-badge">Riwayat Jejak</span>
+        <h2 class="section-title">Work & Education Experience</h2>
+        <div class="title-bar"></div>
+        <p class="section-subtitle">Rekam jejak pendidikan formal, keterlibatan organisasi, dan pengalaman profesional.</p>
+      </div>
+
+      <div class="experience-layout">
+        <!-- Kolom Pendidikan Formal -->
+        <div class="experience-column">
+          <div class="experience-column-header">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Pendidikan Formal</h3>
+          </div>
+          <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2026 - Sekarang</span>
+                <h4 class="timeline-title">S1 Teknik Informatika</h4>
+                <p class="timeline-institution">Universitas Negeri Surabaya (UNESA)</p>
+                <p class="timeline-desc">Fokus: Rekayasa Perangkat Lunak, Web/Mobile, Sistem Cerdas.</p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2022 - 2025</span>
+                <h4 class="timeline-title">SMAN 1 Kefamenanu</h4>
+                <p class="timeline-institution">Sekolah Menengah Atas</p>
+                <p class="timeline-desc">Spesialisasi STEM - Kurikulum Merdeka.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Pengalaman & Organisasi -->
+        <div class="experience-column">
+          <div class="experience-column-header">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Pengalaman & Organisasi</h3>
+          </div>
+          <div class="timeline">
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2022 - 2025</span>
+                <h4 class="timeline-title">Divisi Humas & Edukasi</h4>
+                <p class="timeline-institution">Smansa English Club (SEC)</p>
+                <p class="timeline-desc">Memimpin materi edukasi, korespondensi/proposal Bahasa Inggris, dan fasilitator diskusi.</p>
+              </div>
+            </div>
+
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-year"><i class="fa-regular fa-calendar"></i> 2022 - 2025</span>
+                <h4 class="timeline-title">Pengembangan Wirausaha Mandiri & Analisis Operasional</h4>
+                <p class="timeline-institution">Inisiatif Mandiri</p>
+                <p class="timeline-desc">Analisis finansial BEP, prediksi stok berbasis data penjualan, dan pemecahan masalah kendala pengguna.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 7. Contact ==================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-title-wrap">
+        <span class="section-badge">Mari Terhubung</span>
+        <h2 class="section-title">Contact</h2>
+        <div class="title-bar"></div>
+        <p class="section-subtitle">Punya pertanyaan, tawaran kolaborasi, atau proyek? Silakan kirim pesan atau hubungi melalui kanal di bawah.</p>
+      </div>
+
+      <div class="contact-wrapper">
+        <!-- Informasi Kontak & Media Sosial -->
+        <div class="contact-info-card">
+          <h3 class="contact-card-title">Informasi Kontak</h3>
+          <p class="contact-card-intro">Terbuka untuk kesempatan kolaborasi riset, magang, maupun proyek rekayasa perangkat lunak.</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-detail">
+                <span class="detail-label">Lokasi</span>
+                <span class="detail-value">Surabaya, Indonesia</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-detail">
+                <span class="detail-label">Email</span>
+                <a href="mailto:rezasolokana@gmail.com" class="detail-value contact-link">rezasolokana@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-detail">
+                <span class="detail-label">Telepon / WhatsApp</span>
+                <a href="https://wa.me/6287777448028" target="_blank" rel="noopener noreferrer" class="detail-value contact-link">+62 877-7744-8028</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tautan Media Sosial / Profil -->
+          <div class="social-links-block">
+            <h4 class="social-title">Tautan Profil & Media Sosial</h4>
+            <div class="social-links">
+              <!-- GitHub Placeholder Link -->
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <!-- LinkedIn Placeholder Link -->
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulir Kontak Statis -->
+        <div class="contact-form-card">
+          <h3 class="contact-card-title">Kirim Pesan</h3>
+          <form id="contact-form" class="contact-form" onsubmit="event.preventDefault(); handleFormSubmit();">
+            <div class="form-group">
+              <label for="nama">Nama Lengkap</label>
+              <div class="input-with-icon">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Alamat Email</label>
+              <div class="input-with-icon">
+                <i class="fa-regular fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <div class="input-with-icon textarea-wrap">
+                <i class="fa-regular fa-comment-dots"></i>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan atau penawaran kerja sama..." required></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+            </button>
+            <div id="form-alert" class="form-alert" style="display: none;"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Antonio Rezario Solokana. All Rights Reserved.</p>
+      <p class="footer-sub">Undergraduate Student in Computer Science | Universitas Negeri Surabaya</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
